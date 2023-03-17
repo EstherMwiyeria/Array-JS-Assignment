@@ -1,0 +1,130 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 5% 5% 0% 25%;
+    /* margin: 5% 5% 0% 5%; */
+
+}
+.heading{
+    font-size: 500%;
+    color: white;
+}
+#paragraph1{
+    color: white;
+    font-size: xx-large;
+
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Poppins', sans-serif;
+    font-family: 'Quicksand', sans-serif; */
+}
+a{
+    padding: 0% 10% 0% 0%;
+    color: white;
+}
+.backgrnd{
+    background-color: gainsboro;
+    margin-top: 0%;
+}
+.button{
+    border-radius: 10px;
+    padding: 7px 20px;
+    border-color: blue;
+    color: white;
+    background-color: blue;
+
+}
+.button2{
+    border-color: blue;
+    border-radius: 10px;
+    padding: 7px 20px;
+    margin-left: 45%;
+    color: blue;
+} 
+.section3{
+    display: flex;
+}
+.subsection{
+    margin-left: 15%;
+}
+.student{
+    margin-left: 15%;
+}
+h1{
+    text-align: center;
+}
+#paragraph1{
+    text-align: center;
+}
+#barnav{
+    margin-left: 28%;
+}
+.displayimages{
+    /* gap: 5%; */
+    margin-left: 15%;
+}
+.facilities{
+    margin-left: 17%;
+}
+.foods{
+    margin-left: 20%;
+}
+#para{
+    text-align: center;
+}
+.meals{
+    display: flex;
+    gap: 15%;
+    margin-left: 35%;
+    /* text-align: center;
+    margin: 0% 20% 0% 0%;
+ */
+}
+.arrow{
+    text-align: center;
+}
+.career{
+    text-align: center;
+    margin-left: 13%; 
+}
+.career1{
+    margin-left: 10%;
+}
+#barnavigation{
+    margin-left: 33%;
+}
+.career2{
+    margin-left: 6%;
+}
+.laptopjpg{
+    width: 150%;
+    height: 80%;
+
+}
+.section{
+    background-image: url(/fronter.jpg);opacity: 80%;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: 2000px 1500px;
+    height: 100%;
+    padding-bottom: 260px;
+}
+/* .subsection{
+    margin-left: 17%;
+} */
+.simple{
+    margin-top: 20%;
+}
+.last{
+    background-color: rgb(4, 159, 206);
+    /* border-radius: 100%; */
+
+}
+.outline{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(250, 246, 246);
+    color: black;
+}

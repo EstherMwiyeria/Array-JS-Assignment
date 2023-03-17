@@ -128,3 +128,21 @@ h1{
     background-color: rgb(250, 246, 246);
     color: black;
 }
+@media (min-width: 40em){
+    .last{
+        flex-direction: row;
+    }
+    .last > *  {
+      flex-basis: 100%;  
+    }
+    .last > * *{
+        margin-left: 3%;
+    }
+    
+}
+@media(min-width: 40px){
+    header,
+.section{
+    padding: 7rem 0;
+}    
+}

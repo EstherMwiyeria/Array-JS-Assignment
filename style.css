@@ -15,6 +15,9 @@
     font-size: xx-large;
 
 }
+#paragraph1{
+    color: rgb(4, 159, 206);
+}
 body{
     font-family: 'Open Sans', sans-serif;
     /* font-family: 'Poppins', sans-serif;
@@ -97,6 +100,7 @@ h1{
 }
 .career2{
     margin-left: 6%;
+   
 }
 .laptopjpg{
     width: 150%;
@@ -104,7 +108,7 @@ h1{
 
 }
 .section{
-    background-image: url(/fronter.jpg);opacity: 80%;
+    background-image: url(/fronter.jpg);opacity: 85%;
     background-repeat: no-repeat;
     width: 100%;
     background-size: 2000px 1500px;
@@ -119,6 +123,8 @@ h1{
 }
 .last{
     background-color: rgb(4, 159, 206);
+    border-top-right-radius: 42% 40%;
+    border-top-left-radius: 38% 40%;
     /* border-radius: 100%; */
 
 }
@@ -127,6 +133,7 @@ h1{
     justify-content: space-between;
     background-color: rgb(250, 246, 246);
     color: black;
+   
 }
 @media (min-width: 40em){
     .last{

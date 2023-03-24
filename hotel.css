@@ -1,0 +1,90 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    /* padding: 5% 5% 0% 25%; */
+}
+a{
+    padding: 0% 3% 0% 3%;
+
+}
+#Nuro{
+    font-size: xx-large;
+    color: royalblue;
+}
+button{
+    margin-left: 15%;
+    background-color: royalblue;
+    color: white;
+
+}
+.ton{
+    display: flex;
+}
+.button1{
+    margin-left: 2%;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    display: flex;
+    gap: 10%;
+    margin-top: 5%;
+    
+}
+.simple{
+    height: 50vh;
+    width: 500px;
+    margin-left: 30px;
+    
+}
+#hotel{
+    width: 700px;
+    padding: 0px 5px;
+   
+    
+    
+    /* width: 1000px; */
+}
+/* .container img{
+    height: 30vh;
+    width: 40%;
+} */
+.container2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-left: 10%;
+    width: 400px;
+    height: 570px;
+    
+}
+.words{
+    margin-top: 0%;
+    margin-left: 2%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10%;
+
+}
+.container3{
+    display: flex;
+    margin-left: 2%;
+}
+.minicontainer{
+    margin-left: 40%;
+    background-color: rgb(250, 246, 246);
+    border-radius: 5%;
+    height: 10%;
+}
+.outline{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(250, 246, 246);
+    color: black;
+    margin-top: 1%;
+   
+}
+.backgrnd{
+    background-color: gainsboro;
+}

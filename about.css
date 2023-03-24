@@ -1,0 +1,105 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    /* padding: 5% 5% 0% 25%; */
+}
+a{
+    padding: 0% 3% 0% 3%;
+
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.backgrnd{
+    background-color: gainsboro;
+}
+.headings{
+    text-align: center;
+}
+#Nuro{
+    font-size: xx-large;
+    color: royalblue;
+}
+.container{
+    display: flex;
+    margin-top: 5%;
+    margin-left: 8%;
+}
+.container2{
+    display: flex;
+    margin-top: 5%;
+    margin-left: 8%;
+}
+.container3{
+    display: flex;
+    margin-top: 5%;
+    margin-left: 8%;
+
+}
+button{
+    margin-left: 15%;
+    background-color: royalblue;
+    color: white;
+
+}
+.button1{
+    margin-left: 2%;
+}
+.short{
+margin-left: 10%;
+}
+.vision{
+margin-left: 10%;
+}
+.approach{
+margin-left: 10%;
+}
+#hoteli{
+    height: 300px;
+    border-radius: 80px 0px;
+}
+.outline{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(250, 246, 246);
+    color: black;
+    margin-top: 1%;
+   
+}
+.more{
+    padding: 10px;
+    width: 100px;
+    border-radius: 5px;
+    border-color: aliceblue;
+    
+}
+.button2{
+    border-color: blue;
+    border-radius: 10px;
+    padding: 7px 20px;
+    margin-left: 45%;
+    color: royalblue;
+    background-color: white;
+} 
+
+
+
+@media only screen and (max-width: 600px){
+    .header{
+        display: flex;
+        flex-direction: column;
+        color: white;
+    }
+    a{
+        padding: 0% 1% 0% 1%;
+    
+    
+}
+@media(min-width: 40px){
+    header,
+.section{
+    padding: 7rem 0;
+}    
+}
+}

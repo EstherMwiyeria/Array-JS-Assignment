@@ -88,3 +88,21 @@ body{
 .backgrnd{
     background-color: gainsboro;
 }
+@media only screen and (max-width: 600px){
+    .header{
+        display: flex;
+        flex-direction: column;
+        color: white;
+    }
+    a{
+        padding: 0% 1% 0% 1%;
+    
+    
+}
+@media(min-width: 40px){
+    header,
+.section{
+    padding: 7rem 0;
+}    
+}
+}

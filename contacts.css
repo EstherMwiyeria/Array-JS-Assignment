@@ -1,0 +1,68 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    /* padding: 5% 5% 0% 25%; */
+}
+a{
+    padding: 0% 3% 0% 3%;
+
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.outline{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(250, 246, 246);
+    color: black;
+    margin-top: 1%;
+}
+ .info{
+    display: flex;
+} 
+.info{
+    display: flex;
+}
+.backgrnd{
+    background-color: gainsboro;
+}
+.tables{
+    display: flex;
+    gap: 10%;
+    margin-left: 5%;
+}
+button{
+    background-color: royalblue;
+    color: white;
+    margin-left: 5%;
+    padding: 5px;
+    
+}
+.heading{
+    text-align: center;
+}
+.Message{
+    margin-left: 5%;
+}
+.textbox{
+    padding: 30px 40px;
+}
+@media (min-width: 40em){
+    .Message{
+        flex-direction: row;
+    }
+    .Message > *  {
+      flex-basis: 100%;  
+    }
+    .Message > * *{
+        margin-left: 3%;
+    }
+    
+}
+@media(min-width: 40px){
+    header,
+.section{
+    padding: 7rem 0;
+}    
+}
